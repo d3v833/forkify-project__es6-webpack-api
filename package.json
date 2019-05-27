@@ -22,14 +22,16 @@
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "babel-loader": "^8.0.6",
-    "eslint": "^0.11.0",
-    "eslint-plugin-react": "^7.13.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.1.0",
     "html-webpack-plugin": "^3.2.0",
+    "prettier": "^1.17.1",
     "webpack": "^4.32.2",
     "webpack-cli": "^3.3.2",
     "webpack-dev-server": "^3.4.1"
   },
   "dependencies": {
-        "@babel/polyfill": "^7.4.4"
+    "@babel/polyfill": "^7.4.4",
+    "axios": "^0.18.0"
   }
 }
