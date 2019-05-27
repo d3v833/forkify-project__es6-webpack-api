@@ -1,0 +1,36 @@
+{
+  "name": "forkify-project_es6-webpack-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -- mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d3v833/forkify-project__es6-webpack-api.git"
+  },
+  "author": "developer833",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d3v833/forkify-project__es6-webpack-api/issues"
+  },
+  "homepage": "https://github.com/d3v833/forkify-project__es6-webpack-api#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "eslint": "^0.11.0",
+    "eslint-plugin-react": "^7.13.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  },
+  "dependencies": {
+        "@babel/polyfill": "^7.4.4",
+
+  }
+}
